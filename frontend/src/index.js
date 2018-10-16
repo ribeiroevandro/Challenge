@@ -1,12 +1,11 @@
-import 'config/ReacttotronConfig';
+import './config/ReacttotronConfig';
 
 import React from 'react';
-import { Text, View } from 'react-native';
+
+import Home from 'components/Home';
 
 const App = () => (
-  <View>
-    <Text>App</Text>
-  </View>
+  <Home />
 );
 
 export default App;
