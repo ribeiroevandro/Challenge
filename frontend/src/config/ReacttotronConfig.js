@@ -1,7 +1,7 @@
-import Reactotron from "reactotron-react-native";
-
 if (__DEV__) {
-  const tron = Reactotron.configure()
+  const Reactotron = require('reactotron-react-native').default;
+  const tron = Reactotron
+    .configure()
     .useReactNative()
     .connect();
 
