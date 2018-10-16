@@ -1,4 +1,4 @@
-import './config/ReacttotronConfig';
+import 'config/ReacttotronConfig';
 
 import React from 'react';
 
